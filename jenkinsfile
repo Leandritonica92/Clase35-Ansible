@@ -1,17 +1,12 @@
 pipeline {
-    agent { label 'ansible-controller' }
-    environment {
-        // Define la variable de entorno para la clave privada
-        ANSIBLE_PRIVATE_KEY_FILE = '/home/jenkins/.ssh/id_ed25519'
-    }
+    agent {label 'ansible-controller'}
     stages {
-        stage('Execute Ansible Playbook') {
+        stage('Execute ansible playbook') {
             steps {
                 sh '''
-                    ansible-playbook -i project/inventory.ini project/playbooks/site.yml \
-                    --private-key $ANSIBLE_PRIVATE_KEY_FILE 
+                ansible-playbook -i project/inventory.ini project/playbooks/site.yml
                 '''
-            }
+                }
         }
     }
 }
