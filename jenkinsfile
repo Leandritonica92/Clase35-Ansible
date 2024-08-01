@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'controlleer'}
+    agent {label 'ansible-controller'}
     stages {
         stage('Execute ansible playbook') {
             steps {
