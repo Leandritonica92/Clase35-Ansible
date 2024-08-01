@@ -9,7 +9,7 @@ pipeline {
             steps {
                 sh '''
                     ansible-playbook -i project/inventory.ini project/playbooks/site.yml \
-                    --private-key $ANSIBLE_PRIVATE_KEY_FILE -vvv
+                    --private-key $ANSIBLE_PRIVATE_KEY_FILE 
                 '''
             }
         }
