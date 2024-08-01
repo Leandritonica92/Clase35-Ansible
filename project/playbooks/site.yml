@@ -1,7 +1,7 @@
 ---
 - name: Configure and deploy Apache web server
   hosts: webservers
-  become: yes
+  become: true
   tasks:
     - include_tasks: tasks/update_upgrade.yml
     - include_tasks: tasks/install_apache.yml
@@ -9,4 +9,4 @@
     - include_tasks: tasks/deploy_index.yml
 
   handlers:
-    - include_tasks: handlers/main.yml
+    - include_tasks: handlers/restart.yml
