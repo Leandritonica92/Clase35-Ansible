@@ -4,7 +4,7 @@ pipeline {
         stage('Execute ansible playbook') {
             steps {
                 sh '''
-                ansible-playbook -i project/inventory.ini project/playbooks/site.yml
+                ansible-playbook -i project/inventory.ini project/playbooks/site.yml -vvv
                 '''
                 }
         }
