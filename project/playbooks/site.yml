@@ -1,5 +1,5 @@
 ---
-- name: Configurar e implementar el servidor web Apache
+- name: Configure and deploy Apache web server
   hosts: webservers
   become: true
   tasks:

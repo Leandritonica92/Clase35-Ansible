@@ -1,5 +1,5 @@
 ---
-- name: Implementar el index.html "Hola Mundo"
+- name: Deploy the "Hello World" index.html
   template:
     src: ../templates/index.html.j2
     dest: /var/www/html/index.html

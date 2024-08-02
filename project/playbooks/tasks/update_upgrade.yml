@@ -1,5 +1,5 @@
 ---
-- name: Actualizar y mejorar los paquetes apt
+- name: Update and upgrade apt packages
   apt:
     update_cache: yes
     upgrade: yes
