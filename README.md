@@ -15,4 +15,4 @@ A continuación está el proyecto del desafío a realizar:
 
 **Diagrama de flujo de lo realizado en el desafío:**
 
-<u><[url=https://postimg.cc/XZdZh1rk][img]https://i.postimg.cc/XZdZh1rk/desafio-6-foto.png[/img][/url]></u>
+<u>[![desafio-6-foto.png](https://i.postimg.cc/nLwvX6Zg/desafio-6-foto.png)](https://postimg.cc/XZdZh1rk)</u>
