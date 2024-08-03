@@ -3,21 +3,18 @@
 </p>
 
 ---
-```markdown
- a continuacion esta el proyecto del desafio a realizar:
+
+A continuación está el proyecto del desafío a realizar:
 
 [6 - Ansible proyecto modular.pdf](https://github.com/user-attachments/files/16478190/6.-.Ansible.proyecto.modular.pdf)
 
-
 ---
 
-```markdown
+**_Se lanza el playbook con la siguiente línea de comando:_**
 
-Update the inventory files with your server details.
-
-Se lanza el playbook con la siguiente linea de comando:
-
+```bash
 ansible-playbook -i inventory.ini playbooks/site.yml
+
 
 
 Diagrama de flujo de lo realizado en el desafio:
