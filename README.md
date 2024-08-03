@@ -30,6 +30,10 @@ Ejecutar el Pipeline: Una vez configurado el pipeline y las credenciales SSH, pu
 
 
 
+
+
+
+
 **Diagrama de flujo de lo realizado en el desafío:**
 
 <u>[![desafio-6-foto.png](https://i.postimg.cc/nLwvX6Zg/desafio-6-foto.png)](https://postimg.cc/XZdZh1rk)</u>
