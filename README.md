@@ -10,7 +10,9 @@ A continuación está el proyecto del desafío a realizar:
 
 ---
 
-**_Se lanza el playbook con la siguiente línea de comando:_**bash ansible-playbook -i inventory.ini playbooks/site.yml
-Diagrama de flujo de lo realizado en el desafio:
+**_Se lanza el playbook con la siguiente línea de comando:_**
 
-![desafio-6-foto.png](https://postimg.cc/XZdZh1rk)
+
+**Diagrama de flujo de lo realizado en el desafío:**
+
+<u><img src="https://postimg.cc/XZdZh1rk" alt="desafio-6-foto"></u>
